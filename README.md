@@ -86,6 +86,7 @@ GCP          13.14
 ---
 
 ## Project Structure
+```text
 SPredicty/
 │
 ├── data/
@@ -100,7 +101,7 @@ SPredicty/
 ├── main.py
 ├── requirements.txt
 ├── README.md
-
+```
 
 ---
 
