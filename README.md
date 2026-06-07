@@ -73,15 +73,25 @@ The system evaluates forecasting performance using:
 
 ## Example Output
 
-Enter days ahead (0..60), default 20: 21
+Enter days ahead (0..60), default 20: 17
 
-Top 5 skills on 2026-06-28 (d+21):
+Top 5 skills on 2026-06-25 (d+17)
 
-Python       19.30
-SQL          16.14
-Scala        15.05
-Kubernetes   14.82
-GCP          13.14
+Python       17.14
+Git          13.16
+Scala        12.83
+TensorFlow   12.35
+Java         11.74
+
+---
+
+## Screenshots
+
+### Top 5 Skills Prediction
+![Top Skills](screenshots/Top_5_skills_output.png)
+
+### Forecast Visualization
+![Forecast](screenshots/History_vs_Forecast_chart.png)
 
 ---
 
@@ -90,18 +100,33 @@ GCP          13.14
 SPredicty/
 │
 ├── data/
-│ ├── ai_job_dataset.csv
-│ └── ai_job_dataset1.csv
+│   ├── ai_job_dataset.csv
+│   └── ai_job_dataset1.csv
 │
 ├── outputs/
-│ ├── skill_backtest_recursive_metrics.csv
-│ ├── skill_direct_horizon_metrics.csv
-│ └── top5_day20_predictions.csv
+│   ├── skill_backtest_recursive_metrics.csv
+│   ├── skill_direct_horizon_metrics.csv
+│   └── top5_day17_predictions.csv
+│
+├── screenshots/
+│   ├── Bar_chart.png
+│   ├── History_vs_Forecast.png
+│   ├── Metrics_summary.png
+│   ├── output_files.jpeg
+│   └── Top_5_skills_output.png
 │
 ├── main.py
 ├── requirements.txt
 ├── README.md
+└── .gitignore
 ```
+
+---
+
+Dataset Source:
+Global AI Job Market & Salary Trends 2025
+https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025
+License: CC0 (Public Domain)
 
 ---
 
